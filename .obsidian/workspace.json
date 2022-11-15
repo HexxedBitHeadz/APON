@@ -8,18 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2470cbb8ad852bc7",
+            "id": "2bc47698ee30bbcc",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APON/1._Pentesting_Setup/__.Starting_Point.md",
+                "file": "APON/README.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "8617e69be015886e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APON/99._Active_Directory/9.1_pypykatz.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -64,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 280.5
   },
   "right": {
     "id": "6a5107f953f852cf",
@@ -114,17 +127,17 @@
     "direction": "horizontal",
     "width": 302.5
   },
-  "active": "7dcc8f474ed6a26e",
+  "active": "2bc47698ee30bbcc",
   "lastOpenFiles": [
-    "APON/6._Tools/nmap.md",
-    "APON/1._Pentesting_Setup/__.Starting_Point.md",
-    "APON/1._Pentesting_Setup/rlwrap.md",
-    "orphaned files output.md",
-    "APON/1._Pentesting_Setup/2._PimpMykali.md",
-    "2._Port_Enum/zz._Gaining Shell Access (smbexec.py).md",
-    "2._Port_Enum/zz._Gaining Shell Access (psexec.py).md",
-    "2._Port_Enum/zz._Gaining Shell Access (evil-winrm).md",
-    "2._Port_Enum/zz._Gaining Shell Access (Crackmapexec).md",
-    "2._Port_Enum/Port 27017 - MongoDB ~.md"
+    "APON/99._Active_Directory/9.1_pypykatz.md",
+    "APON/99._Active_Directory/8._PrintNightmare.md",
+    "APON/99._Active_Directory/7._Abusing GPP 2.md",
+    "APON/99._Active_Directory/6._Abusing GPP 1.md",
+    "APON/99._Active_Directory/5._Kerberoasting.md",
+    "APON/99._Active_Directory/4._Token Impersonation.md",
+    "APON/99._Active_Directory/3._Cracking NTLM Hashes with Hashcat.md",
+    "APON/99._Active_Directory/2._Dumping Hashes with Secretsdump.py.md",
+    "APON/99._Active_Directory/1._Service Account Attacks.md",
+    "APON/README.md"
   ]
 }

@@ -1,0 +1,112 @@
+{
+  "main": {
+    "id": "3de33009a5b11fb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "b840fe00bbd6c504",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "8._Tools/nmap.md",
+            "mode": "preview",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d8fc99314ec22110",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3b2b5c1da58d05e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0cd7c640afaccb6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1201d9cd17012d7b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 262.5
+  },
+  "right": {
+    "id": "6a5107f953f852cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "50a68d52ece0e526",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68fdb43e269f4c1c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "cfd94dcd951f676a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "988f3e48cfd88990",
+            "type": "leaf",
+            "state": {
+              "type": "dangling-links",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 451.5,
+    "collapsed": true
+  },
+  "active": "b840fe00bbd6c504",
+  "lastOpenFiles": [
+    "1._Pentesting_Setup/__.Steps.md",
+    "1._Pentesting_Setup/__.Web_Enumeration.md",
+    "5.1_Linux_PrivEsc/1._TCM/0.__PrivEsc Tools (LINUX).md",
+    "Tags.md",
+    "99._Port_Frwd_&_Pivoting/0._Examples/2._SSH Tunneling and Port Forwarding.md",
+    "99._Active_Directory/Active Directory (YT)/2._CrackMapExec.md",
+    "99._Active_Directory/Active Directory (YT)/9._Lateral Movement.md",
+    "99._Active_Directory/__Notes & Tricks__/0._Quick Tricks.md",
+    "99._Active_Directory/__.Methodology.md",
+    "99._Active_Directory/4._Service Account Attacks.md"
+  ]
+}

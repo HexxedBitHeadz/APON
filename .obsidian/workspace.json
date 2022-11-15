@@ -1,0 +1,137 @@
+{
+  "main": {
+    "id": "3de33009a5b11fb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb163117105fac54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "137c6e86ac40c96b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APON/1._Pentesting_Setup/rlwrap.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "29bdfa6cc312fbc0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d8fc99314ec22110",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3b2b5c1da58d05e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0cd7c640afaccb6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1201d9cd17012d7b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 309.5
+  },
+  "right": {
+    "id": "6a5107f953f852cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "50a68d52ece0e526",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68fdb43e269f4c1c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "7dcc8f474ed6a26e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "cfd94dcd951f676a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "988f3e48cfd88990",
+            "type": "leaf",
+            "state": {
+              "type": "dangling-links",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 302.5
+  },
+  "active": "a0cd7c640afaccb6",
+  "lastOpenFiles": [
+    "APON/1._Pentesting_Setup/rlwrap.md",
+    "APON/1._Pentesting_Setup/2._PimpMykali.md",
+    "APON/1._Pentesting_Setup/__.Starting_Point.md",
+    "2._Port_Enum/zz._Gaining Shell Access (smbexec.py).md",
+    "2._Port_Enum/zz._Gaining Shell Access (psexec.py).md",
+    "2._Port_Enum/zz._Gaining Shell Access (evil-winrm).md",
+    "2._Port_Enum/zz._Gaining Shell Access (Crackmapexec).md",
+    "2._Port_Enum/Port 27017 - MongoDB ~.md",
+    "2._Port_Enum/Port 10250 - Kubelet.md",
+    "2._Port_Enum/Port 8067 - Unreal IRC.md"
+  ]
+}

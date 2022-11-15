@@ -1,0 +1,24 @@
+{
+  "spellcheck": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "zz._attachments",
+  "legacyEditor": false,
+  "livePreview": false,
+  "showLineNumber": true,
+  "fileSortOrder": "alphabetical",
+  "alwaysUpdateLinks": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "rightToLeft": false,
+  "autoPairBrackets": true,
+  "autoPairMarkdown": false,
+  "defaultViewMode": "preview",
+  "tabSize": 4,
+  "readableLineLength": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

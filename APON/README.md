@@ -16,7 +16,7 @@ This resource was made with, and best formatted for Obsidian Notes.  We cannot g
 1. Download Obsidian Notes (preferably on VM or excluded space)
 2. Download APON repo (preferably on VM or excluded space)
 3. Open Obsidian Notes and select "Open folder as vault".
-4. Navigate to APON folder, and select folder.
+4. Navigate to APON folder, and select folder.  (images / links will show properly once in Obsidian Notes.)
 
 To access the Git section:
 ![[Pasted image 20221116110652.png]]

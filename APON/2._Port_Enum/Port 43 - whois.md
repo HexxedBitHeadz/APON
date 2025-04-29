@@ -1,3 +1,3 @@
-```bash - kali
-whois -h $TARGET $TARGET
+```
+whois -h $TARGET
 ```

@@ -1,7 +1,13 @@
 #### VHOST discovery
 ```bash - kali
-gobuster vhost -u http://example.domain -w /usr/share/seclists/Discovery/DNS/subdomainstop1million-5000.txt | grep -v 302
+gobuster vhost -u http://forge.htb -w /usr/share/seclists/Discovery/DNS/subdomainstop1million-5000.txt | grep -v 302
 ```
+
+```bash - kali
+gobuster vhost -u http://inlanefreight.htb:37816 -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt --append-domain
+
+```
+
 
 #### https with php extension
 ```bash - kali

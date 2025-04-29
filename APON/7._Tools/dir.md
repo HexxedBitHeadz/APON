@@ -1,8 +1,10 @@
 Search recursively for a file
-```command prompt - windows
+```batch - windows
 where /r C:\Users flag*
 ```
-
-```command prompt - windows
+```batch - windows
 dir /S /B flag*
+```
+```batch
+dir /S /B C:\ | findstr "flag"
 ```

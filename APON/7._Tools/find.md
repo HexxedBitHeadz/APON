@@ -1,48 +1,41 @@
+### File finding
+```
+find / -type f -iname "secretsdump.py" 2>/dev/null
+```
 #### History hunting
-```bash - target
+```bash - linux
 find / -iname .bash_history 2>/dev/null
 ```
-
 #### Hunting for config files.
-```bash - target
+```bash - linux
 find / -iname *config* 2> /dev/null
 ```
-
-```bash - target
+```bash - linux
 find / -iname *conf* 2> /dev/null
 ```
-
-```bash - target
+```bash - linux
 find / -iname *.cnf 2> /dev/null
 ```
-
 Hunting for config files that contain 'password'
-```bash - target
+```bash - linux
 find / -iname '*config*' -exec grep -rli 'password' {} \; 2> /dev/null
 ```
-
 Hunting for config php files that contain 'password'
-```bash - target
+```bash - linux
 find / -iname '*config*.php' -exec grep -rli 'password' {} \; 2> /dev/null
 ```
-
-```bash - target
+```bash - linux
 find / -iname '*config*.php' -exec grep -rli 'DBPASS' {} \; 2> /dev/null
 ```
-
 Find files by group (network group in example):
-```bash - target
+```bash - kali
 find / -xdev -group network 2>/dev/null
 ```
-
 #### whereis
-
-```bash - target
+```bash - kali
 whereis phpmyadmin
 ```
-
-
 #### Find local.txt file
-```bash - target
+```bash - linux
 find / -iname local.txt 2> /dev/null
 ```

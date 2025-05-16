@@ -1,0 +1,1 @@
+nuclei -target example.com

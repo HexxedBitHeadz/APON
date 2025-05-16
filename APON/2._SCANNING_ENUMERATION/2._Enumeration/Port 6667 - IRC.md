@@ -42,8 +42,6 @@ privmsg spaghetti_BoT email:kali@kali.lan description:test |./Shelly.sh
 sudo apt-get install hexchat
 ```
 Add > Edit
-![[Pasted image 20220320171011.png]]
 Once connected, go to Server > Channel list.
 Enter a wildcard i the search bar and hit search.
 * May have to decrease the "channels with" value to 1.
-![[Pasted image 20220320171419.png]]

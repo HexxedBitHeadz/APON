@@ -26,13 +26,10 @@ Provide Task Name.
 For Frequency, set for just a few minutes in advance from current time.
 **MAKE SURE TO  CHECK THE PUBLISH BOX!**
 For file path, use the path found from mappings page: `C:\Inetpub\wwwroot\CFIDE\cfexec.cfm`
-![[Pasted image 20220613154728.png]]
 After hitting submit, can run tasks right away (Green button), then visit exploit to launch.
 `http://$TARGET:/CFIDE/cfexe.cfm`
-![[Pasted image 20220613154901.png]]
 [[1._Reverse Shells (WIN)#Stageless Payloads]]
 [[4._File Transfers]]
-![[Pasted image 20220613155208.png]]
 [[1._rlwrap]]
 #### ColdFusion 8 FileUpload
 https://forum.hackthebox.com/t/python-coldfusion-8-0-1-arbitrary-file-upload/108

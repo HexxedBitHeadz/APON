@@ -20,7 +20,6 @@ Run with timeout for graceful exit!
 timeout 1m ./pspy64
 ```
 Look at the output, look for any UID=0, as this is the root user.  Look for any commands that are calling a file / script that we may have write privileges to.
-![[Pasted image 20211229224921.png]]
 ```bash - kali
 find / -writable -type d 2>/dev/null
 ```

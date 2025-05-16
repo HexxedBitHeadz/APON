@@ -19,9 +19,7 @@ This resource was made with, and best formatted for Obsidian Notes.  We cannot g
 4. Navigate to APON folder, and select folder.  (images / links will show properly once in Obsidian Notes.)
 
 To access the Git section:
-![[Pasted image 20221116110652.png]]
 To do a Git pull:  Click the down arrow symbol to pull any updates from the repo.
-![[Pasted image 20221116113631.png]]
 
 Every new engagement starts at [[__.Starting_Point]], which is meant to set you up for the rest of the notebook.  Here, we assign the Kali IP to the variable KALI (pay attention to the network interface used), and then assigns the target IP to the variable TARGET.  We do this so that moving forward, we can utilize the power of variables and copy / paste scripts and commands faster and easier.  For example, for all of your nmap, msfvenom, etc commands are ready to go.  The purpose of this approach is to reduce the amount of manually entering details such as IP addresses / port numbers, etc.
 

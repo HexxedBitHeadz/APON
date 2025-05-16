@@ -5,9 +5,7 @@ git clone https://github.com/aancw/spose.git && cd spose
 ```bash - kali
 python3 spose.py --proxy http://$TARGET:3128 --target 127.0.0.1
 ```
-![[Pasted image 20220610140446.png]]
 #### Foxy Proxy
-![[Pasted image 20220610133805.png]]
 Once foxy proxy is set up, we now try visiting one of the ports found by spose:
 http://127.0.0.1:3306
 http://127.0.0.1:8080

